@@ -1,0 +1,17 @@
+ @import url("bootstrap.min.css");
+ .delani {
+     background: url("../Images/h_img.jpg");
+     height: 100vh;
+     color: white;
+     text-align: center;
+     padding: 14%;
+ }
+ 
+ .delani img {
+     padding: 5%;
+ }
+ 
+ span {
+     font-size: 37px;
+     font-weight: bold;
+ }
