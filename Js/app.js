@@ -76,6 +76,21 @@ $(document).ready(function() {
         $(".para-8").show();
     })
     $(".image7").mouseleave(function() {
-        $(".para-8").hide();
-    })
+            $(".para-8").hide();
+        })
+        // submit button
+    $('#submit').click(function(event) {
+        event.preventDefault();
+        var Name = $('#Name').val();
+        var Email = $('#Email').val();
+        var Message = $('#Message');
+        var key = '43ab10333d46e19325f96d210ed40c49-us5';
+        if (Name == '' || Email == '' || Message == '') {
+            alert('Please make sure you have filled in the form correctly!');
+        } else {
+            alert(' Hi ' + Name + ' We have received your message. Thank you for reaching out to us.');
+        }
+
+    });
+
 })
