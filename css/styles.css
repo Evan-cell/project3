@@ -30,10 +30,30 @@
      padding: 8%;
  }
  
+ .row {
+     text-align: center;
+ }
+ 
+ .port {
+     text-align: center;
+ }
+ 
  #h3 {
      text-align: center;
  }
  
  .contact {
      background: url("../Images/c_image.jpg");
+ }
+ 
+ .par {
+     display: none;
+ }
+ 
+ .para {
+     display: none;
+ }
+ 
+ .card {
+     padding: 15px;
  }
