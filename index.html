@@ -97,10 +97,24 @@
                     </div>
                 </div>
             </div>
-
-
-
-            <h5>CONTACT US</h5>
+            <div class="contact">
+                <h5>CONTACT US</h5>
+                <form onsubmit="return validationForm()" class="form">
+                    <div class="row"></div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Name" id="name">
+                    </div>
+                    <div class="col">
+                        <input type="email" class="form-control" placeholder="@gmail.com" id="email">
+                    </div>
+                    <div class="col-sm-12" id="text">
+                        <textarea type="text" class="form-control" placeholder="Your Message here..." id="textarea"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
 
 
 </body>
