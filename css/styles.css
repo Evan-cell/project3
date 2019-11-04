@@ -89,10 +89,6 @@
      border: 3px solid #fff;
  }
  
- #textarea {
-     background-color: transparent;
- }
- 
  #textarea::placeholder {
      color: white;
      font-weight: bold;

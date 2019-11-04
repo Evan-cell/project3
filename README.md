@@ -24,7 +24,7 @@
 - JQUERY
 
 ## Live Link
-caslkcglsgcdis
+https://loisemuthoni.github.io/project3/.
 
 ## Known Bugs
 - No Known Bugs
