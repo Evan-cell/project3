@@ -110,15 +110,16 @@
         <div class="contact">
             <h5>CONTACT US</h5>
             <form onsubmit="return validationForm()" class="form">
-                <div class="row"></div>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Name" id="name">
-                </div>
-                <div class="col">
-                    <input type="email" class="form-control" placeholder="@gmail.com" id="email">
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" class="form-control" placeholder="Name" id="name">
+                    </div>
+                    <div class="col-6">
+                        <input type="email" class="form-control" placeholder="@gmail.com" id="email">
+                    </div>
                 </div>
                 <div class="col-sm-12" id="text">
-                    <textarea type="text" class="form-control" placeholder="Your Message here..." id="textarea"></textarea>
+                    <textarea type="text" class="form-control" placeholder="Your Message here..." id="textarea" cols="13" rows="13"></textarea>
                 </div>
                 <div>
                     <button type="submit" class="btn btn-primary">Submit</button>
@@ -126,7 +127,7 @@
             </form>
         </div>
         <div>
-            <footer class="row">
+            <footer id="foot">
                 <img src="Images/social_icons/twitter.png" alt="twitter">
                 <img src="Images/social_icons/dribble.png" alt="dribble">
                 <img src="Images/social_icons/facebook.png" alt="facebook">
@@ -138,10 +139,8 @@
                 <img src="Images/social_icons/flickr.png" alt="flickr">
             </footer>
             <div>
-                <h6>Delani Studio</h6>
-                <p>2019</p>
+                <p id="pr">DELANI STUDIO<br> 2019</p>
             </div>
-
         </div>
 
 

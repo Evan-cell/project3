@@ -88,3 +88,31 @@
      padding: 2rem;
      border: 3px solid #fff;
  }
+ 
+ #textarea {
+     background-color: transparent;
+ }
+ 
+ #name {
+     background-color: transparent;
+     color: white;
+ }
+ 
+ #email {
+     background-color: transparent;
+     color: white;
+ }
+ 
+ footer {
+     display: block;
+     text-align: center;
+ }
+ 
+ h6 {
+     text-align: center;
+     padding: 10px;
+ }
+ 
+ #pr {
+     text-align: center;
+ }
