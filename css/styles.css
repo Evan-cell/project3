@@ -94,13 +94,20 @@
      font-weight: bold;
  }
  
- #name {
+ form {
+     width: 60%;
+     margin: 0 auto;
+ }
+ 
+ #name,
+ #message {
      background-color: transparent;
      color: white;
      font-weight: bold;
  }
  
- #name::placeholder {
+ #name::placeholder,
+ #message::placeholder {
      color: white;
  }
  
@@ -127,4 +134,8 @@
  
  #pr {
      text-align: center;
+ }
+ 
+ h5 {
+     color: white;
  }
